@@ -1,0 +1,35 @@
+[
+  {
+    "true_class": "High",
+    "row_index": 16638,
+    "top_contributing_features": {
+      "Error_to_Output_Ratio": 3.43428635597229,
+      "Production_Speed_units_per_hr": 2.2775719165802,
+      "Error_Rate_%": 2.0966367721557617,
+      "Packet_Loss_%": 0.19509302079677582,
+      "Quality_Adjusted_Error": 0.10178931802511215
+    }
+  },
+  {
+    "true_class": "Low",
+    "row_index": 75721,
+    "top_contributing_features": {
+      "Error_Rate_%": 5.70613431930542,
+      "Error_to_Output_Ratio": 1.0937910079956055,
+      "Production_Speed_units_per_hr": -0.503122091293335,
+      "Quality_Adjusted_Error": 0.43701642751693726,
+      "Network_Latency_ms": 0.1629064530134201
+    }
+  },
+  {
+    "true_class": "Medium",
+    "row_index": 84004,
+    "top_contributing_features": {
+      "Error_Rate_%": 4.020264148712158,
+      "Error_to_Output_Ratio": 1.2556366920471191,
+      "Production_Speed_units_per_hr": -0.6406245827674866,
+      "Quality_Control_Defect_Rate_%": -0.27607661485671997,
+      "Energy_Efficiency_Ratio": 0.268538236618042
+    }
+  }
+]

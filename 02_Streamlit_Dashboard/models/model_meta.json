@@ -1,0 +1,58 @@
+{
+  "feature_cols": [
+    "Temperature_C",
+    "Vibration_Hz",
+    "Power_Consumption_kW",
+    "Network_Latency_ms",
+    "Packet_Loss_%",
+    "Quality_Control_Defect_Rate_%",
+    "Production_Speed_units_per_hr",
+    "Predictive_Maintenance_Score",
+    "Error_Rate_%",
+    "Sensor_Stability_Score",
+    "Energy_Efficiency_Ratio",
+    "Error_to_Output_Ratio",
+    "Quality_Adjusted_Error",
+    "Network_Reliability_Score",
+    "Hour",
+    "Is_Weekend",
+    "Mode_Active",
+    "Mode_Idle",
+    "Mode_Maintenance"
+  ],
+  "numeric_features": [
+    "Temperature_C",
+    "Vibration_Hz",
+    "Power_Consumption_kW",
+    "Network_Latency_ms",
+    "Packet_Loss_%",
+    "Quality_Control_Defect_Rate_%",
+    "Production_Speed_units_per_hr",
+    "Predictive_Maintenance_Score",
+    "Error_Rate_%",
+    "Sensor_Stability_Score",
+    "Energy_Efficiency_Ratio",
+    "Error_to_Output_Ratio",
+    "Quality_Adjusted_Error",
+    "Network_Reliability_Score",
+    "Hour",
+    "Is_Weekend"
+  ],
+  "mode_cols": [
+    "Mode_Active",
+    "Mode_Idle",
+    "Mode_Maintenance"
+  ],
+  "categorical_features": [
+    "Operation_Mode"
+  ],
+  "class_names": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "best_model": "Random Forest",
+  "split_index": 80000,
+  "train_size": 80000,
+  "test_size": 20000
+}

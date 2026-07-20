@@ -1,0 +1,29 @@
+{
+  "n_rows": 100000,
+  "n_machines": 50,
+  "date_range": [
+    "2025-01-01 00:00:00",
+    "2025-03-10 10:39:00"
+  ],
+  "class_counts": {
+    "Low": 77825,
+    "Medium": 19189,
+    "High": 2986
+  },
+  "class_pct": {
+    "Low": 77.82,
+    "Medium": 19.19,
+    "High": 2.99
+  },
+  "operation_mode_counts": {
+    "Active": 70054,
+    "Idle": 20057,
+    "Maintenance": 9889
+  },
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "machine_low_pct_range": [
+    76.09137055837564,
+    80.42704626334519
+  ]
+}
